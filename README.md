@@ -2,6 +2,8 @@
 # My Data Analytic project to decode 95,107 vins into nice vehicle infos.
 
 ### 1. Data: i download FHV data from data: https://data.cityofnewyork.us/Transportation/For-Hire-Vehicles-FHV-Active/8wbx-tsch
+sample:
+![raw data](https://github.com/karma-gits/vin_decoder/blob/main/sample.png)
 
 ### 2. Python: to scrape the infos from the website (tooks over 18hrs just to extract datas) and export xlsx/csv
 ****sample codes: for Full codes go to jupiternotebook/script.ipynb
@@ -38,8 +40,10 @@ example:
 *** new column example
                       
                       | vin number        | Make     | Model | Year |Trim | Fuel-Type  | 
-                      | ----------        | ----     | ----- | ---- | ----|      ----  | 
+                      | ----------        | ----     | ----- | ---- | ----|  --------  | 
                       |JN8AZ2NE9J9194149  | INFINITI | QX80  | 2018 | Base|  Gas       | 
       
 ### 4. Tableau: to create dashboard
+Tableau link : https://public.tableau.com/app/profile/karma.tabs/viz/FHV-NYC2023/FHV-NYC-Dashboard
 
+![dashboard](https://github.com/karma-gits/karma-gits.github.io/blob/main/images/fulls/01.jpg)
